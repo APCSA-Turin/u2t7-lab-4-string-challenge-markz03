@@ -3,7 +3,6 @@ public class StringProblems{
     //empty constructor
     public StringProblems(){}
 
-
     // Given a string, return true if it ends in "ly".
     // endsLy("oddly") → true
     // endsLy("y") → false
@@ -16,7 +15,6 @@ public class StringProblems{
         }
         return false;
     }
-
 
     // Given two strings, append them together (known as "concatenation") 
     // and return the result. However, if the concatenation creates a double-char, 
@@ -54,7 +52,6 @@ public class StringProblems{
         return s1.substring(2);
     }
 
-    
     // Given a string, if the first or last chars are 'x', 
     // return the string without those 'x' chars, and otherwise 
     // return the string unchanged.
